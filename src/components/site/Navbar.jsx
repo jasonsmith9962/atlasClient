@@ -4,10 +4,11 @@ import Navbar from 'reactstrap';
 const Navbar = () => {
 
     return (
-        <Navbar>
+        <header>
+            <Navbar>
 
-        </Navbar>
-
+            </Navbar>
+        </header>
     )
 }
 
