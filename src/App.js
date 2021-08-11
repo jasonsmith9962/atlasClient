@@ -5,12 +5,12 @@ import {
 import './App.css';
 import Sidebar from './components/site/Sidebar';
 import Footer from './components/site/Footer';
-import Navbar from './components/site/Navbar';
+import Header from './components/site/Header'
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Header />
       <Router>
       <Sidebar />
       </Router>
